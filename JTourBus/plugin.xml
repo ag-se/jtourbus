@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+   id="de.fu_berlin.inf.JTourBus"
+   name="JTourBus (Search Based) Plug-in"
+   version="3.3.0"
+   provider-name="AGSE FU Berlin"
+   class="de.fu_berlin.inf.jtourbus.plugin.JTourBusPlugin">
+
+   <runtime>
+   </runtime>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.jdt.core"/>
+      <import plugin="org.eclipse.jdt.ui"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+      <import plugin="org.eclipse.search"/>
+   </requires>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            name="JTourBus Routes"
+            icon="icons/bus-blue-16.png"
+            category="org.eclipse.jdt.ui.java.browsing"
+            class="de.fu_berlin.inf.jtourbus.view.TourBusRoutesView"
+            id="de.inffub.jtourbus.view.TourBusRoutesView">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <view
+               ratio="0.5"
+               relative="org.eclipse.jdt.ui.SourceView"
+               relationship="stack"
+               id="de.inffub.jtourbus.view.TourBusRoutesView">
+         </view>
+      </perspectiveExtension>
+   </extension>
+
+</plugin>

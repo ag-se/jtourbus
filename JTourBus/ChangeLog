@@ -1,0 +1,66 @@
+
+2008-08-14 Christopher Oezbek <oezbek@inf.fu-berlin.de>
+
+  * Refactored packages
+  * Fixed bugs to run under Eclipse 3.3
+  * Released as version 0.7.1
+
+2008-08-13 Christopher Oezbek <oezbek@inf.fu-berlin.de>
+
+  * Fixed bugs to run under Eclipse 3.2
+
+2006-02-01 Christopher Oezbek <oezbek@inf.fu-berlin.de>
+  
+  * Fixed a DND Bug killing some text. Man I need a JUnit-Test!!
+  
+2006-01-31 Christopher Oezbek <oezbek@inf.fu-berlin.de>
+
+  * Better * handling
+  * Fixed a DND Bug killing some text
+
+2006-01-22 Christopher Oezbek <oezbek@inf.fu-berlin.de>
+
+  * Small fixes at selection model
+  * Added mouse-clickability of tours.
+  * Fixed beginning of tour is 1.0 when inserting
+  * Corrected insert stop behaviour
+  * Added smarter project picking (any selected java element
+    can be used to change the project)
+  * Add right click support in view
+  * Remove set button with a generic regenerate button
+  * Disable scanning of non-java-resources
+  * Corrected bug with DND not checking if the tour was actually empty 
+    after reordering
+  * Added rename support in the treeviewer
+
+2006-01-17 Christopher Oezbek <oezbek@inf.fu-berlin.de>
+
+  * Added alphabetical sorting for Tours
+  * Fixed DND Feedback -> Eclipse-Bug
+  
+  https://bugs.eclipse.org/bugs/show_bug.cgi?id=124168
+
+2005-11-16 Christopher Oezbek <oezbek@inf.fu-berlin.de>
+
+  * Added drag and drop support V1
+
+
+2005-07-27 Christopher Oezbek <oezbek@inf.fu-berlin.de>
+
+Added the following features:
+  * Can add new Stop at the current location based on the last selected entry
+    in the JTourBusViewer
+  * Added progress support for the creation of the tour.
+  * Crash protection, when editor is closed and new stop was supposed to be 
+    created
+  * Release V 0.4.0
+
+2005-07-26 Christopher Oezbek <oezbek@inf.fu-berlin.de>
+
+Added the following features:
+  * Up and down arrows
+  * Support for @JTourBusStops in JavaDoc
+  * Better refresh support (keeps current location visible)
+  * Perform project scan only when JTourBus view is visible
+  
+  
