@@ -1,0 +1,25 @@
+JTourBus is a research prototype implementing the idea of guided tours through
+source code for the Java Programming Language using the IDE Eclipse.
+
+It was used in an controlled experiment to assess whether subjects would have 
+improved comprehension of software when using a guided tour through the code.
+
+Research results have been published as
+
+Christopher Oezbek, Lutz Prechelt. JTourBus: Simplifying Program Understanding 
+by Documentation that Provides Tours Through the Source Code. 
+In Proceedings of the 23th IEEE International Conference on 
+Software Maintenance (ICSM'07), IEEE Computer Society, Paris, October 2-5, 
+2007. 
+
+The paper and materials can be obtained from the JTourBus homepage at
+
+https://www.inf.fu-berlin.de/w/SE/JTourBus
+
+For further information, please contact the authors:
+
+Christopher Oezbek - oezbek@inf.fu-berlin.de 
+
+Lutz Prechelt - prechelt@inf.fu-berlin.de
+
+This software was released under the EPL 1.0 in Octobre 2008.   
