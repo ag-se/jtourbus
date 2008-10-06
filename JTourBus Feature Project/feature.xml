@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="JTourBus"
+      label="JTourBus Feature"
+      version="3.2.0"
+      provider-name="FU Berlin - AG Software Technik">
+
+   <description url="https://www.inf.fu-berlin.de/w/SE/JTourBus">
+      JTourBus is a prototypical implementation of the idea to enhance
+documentation to be able to better cope with delocalization.
+JTourBus does this by providing tours through source code using
+the JavaDoc-tag @JTourBusStop.
+   </description>
+
+   <copyright url="https://www.inf.fu-berlin.de/w/SE/JTourBus">
+      Christopher Oezbek oezbek@inf.fu-berlin.de 2005-2008
+   </copyright>
+
+   <license url="http://www.eclipse.org/legal/epl-v10.html">
+      See http://www.eclipse.org/legal/epl-v10.html
+   </license>
+
+   <url>
+      <update label="JTourBus Update Site for Eclipse 3.2" url="http://www.inf.fu-berlin.de/inst/ag-se/research/jtourbus/update_3.2/"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.jdt.core"/>
+      <import plugin="org.eclipse.jdt.ui"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+      <import plugin="org.eclipse.search"/>
+   </requires>
+
+   <plugin
+         id="de.inffub.JTourBusSearch"
+         download-size="0"
+         install-size="0"
+         version="3.2.0"
+         unpack="false"/>
+
+</feature>

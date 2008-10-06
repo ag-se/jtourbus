@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description url="http://www.inf.fu-berlin.de/inst/ag-se/research/jtourbus/update_3.2/">
+      Update Site for JTourBus using Eclipse 3.2
+   </description>
+   <feature url="features/JTourBus_3.2.0.jar" id="JTourBus" version="3.2.0">
+      <category name="JTourBus for Eclipse 3.2"/>
+   </feature>
+   <category-def name="JTourBus for Eclipse 3.2" label="JTourBus for Eclipse 3.2"/>
+</site>

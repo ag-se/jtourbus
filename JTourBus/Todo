@@ -1,0 +1,16 @@
+
+  * Add a TourView that displays the tour in a nicer way that in the source.
+  * Add cancel support for rebuild of tours and make it backgroundable
+  * Add rename for tours and stops
+  * Mememto support
+  * Fix problem with not saving file.
+  * Add support for disabling actions.
+
+  * [Optional] Add option to Link with editor  
+  * Provide Taglet for JTourBus 
+  * Combine JTourBus and JavaDoc better  
+  
+  * Adding stops still gets confused            
+	 
+  * Improve description of how to write a good tour!
+	* Intro, pick good stops, provide outlook.

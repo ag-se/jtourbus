@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JTourBusSearch Based Plug-in
+Bundle-SymbolicName: de.inffub.JTourBusSearch; singleton:=true
+Bundle-Version: 3.2.0
+Bundle-Activator: de.inffub.jtourbus.plugin.JTourBusPlugin
+Bundle-Vendor: AGSE FU Berlin
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jdt.core,
+ org.eclipse.jdt.ui,
+ org.eclipse.ui.editors,
+ org.eclipse.jface.text,
+ org.eclipse.core.resources,
+ org.eclipse.ui.workbench.texteditor,
+ org.eclipse.search
+Eclipse-LazyStart: true
