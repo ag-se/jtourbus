@@ -11,14 +11,18 @@
 
 package de.fu_berlin.inf.jtourbus;
 
-import junit.framework.TestCase;
+import static org.junit.Assert.*;
 
-public class _TestBusStopJavaDoc extends TestCase {
+import org.junit.Test;
+
+
+public class _TestBusStopJavaDoc  {
 
     /*
      * Test method for
      * 'de.inffub.jtourbus.BusStopJavaDoc.processJavaDoc(String)'
      */
+    @Test
     public void testProcessJavaDoc() {
 
         {
