@@ -16,7 +16,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 
-public class _TestBusStopJavaDoc  {
+public class BusStopJavaDocTest  {
 
     /*
      * Test method for
